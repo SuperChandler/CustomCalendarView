@@ -116,6 +116,7 @@ for (int i = 0; i < paintCount; i++) {
     }
 }
 ```
+![这里写图片描述](http://img.blog.csdn.net/20170526173723855?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2luYXRfMjY3MTA3MDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 分为两种：
 奇数个小点：先绘制圆点坐标的小点，接着是圆点左边的第一个小点，接着是圆点右边的第一个小点，然后是，圆点左边第二个小点，再绘制圆点右边第二个小点。。。（Math.pow(-1,i+1)来控制圆点左边是负数，右边是正数）
 偶数个小点：先绘制左边在绘制右边，在绘制左二，依次进行。
